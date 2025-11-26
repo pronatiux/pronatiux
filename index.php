@@ -22,7 +22,7 @@
         h1 {
             font-size: 70px;
             letter-spacing: 25px;
-            font-weight: lighter;
+            font-weight: normal;
             margin: 50px 0;
             text-align: center;
         }
@@ -36,7 +36,7 @@
         h2 {
             font-size: 15px;
             letter-spacing: 10px;
-            font-weight: lighter;
+            font-weight: normal;
             margin: 50px 0;
             text-align: center;
         }
