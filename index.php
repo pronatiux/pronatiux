@@ -9,7 +9,7 @@
     <style>
         @font-face {
             font-family: 'pronatiux';
-            src: url('https://github.com/pronatiux/pronatiux/raw/refs/heads/main/font.woff2') format('woff2');
+            src: url('https://cdn.jsdelivr.net/gh/pronatiux/pronatiux/font.woff2') format('woff2');
         }
 
         * {
@@ -24,7 +24,7 @@
     </style>
     <script>
         async function loadFontAndShow() {
-            const fontUrl = 'https://github.com/pronatiux/pronatiux/raw/refs/heads/main/font.woff2';
+            const fontUrl = 'https://cdn.jsdelivr.net/gh/pronatiux/pronatiux/font.woff2';
             const font = new FontFace('pronatiux', `url(${fontUrl})`);
 
             try {
