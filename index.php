@@ -22,6 +22,9 @@
             transition: opacity 0.5s ease-in-out;
         }
     </style>
+</head>
+
+<body class="bg-black text-white flex justify-center min-h-screen">
     <script>
         async function loadFontAndShow() {
             const fontUrl = 'https://cdn.jsdelivr.net/gh/pronatiux/pronatiux/font.woff2';
@@ -33,17 +36,13 @@
                 document.body.style.opacity = '1';
             } catch (error) {
                 console.error('Font loading failed:', error);
-                // Fallback: show content even if font fails
                 document.body.style.opacity = '1';
             }
         }
 
-        // Start loading immediately
         loadFontAndShow();
     </script>
-</head>
 
-<body class="bg-black text-white flex justify-center min-h-screen">
     <div class="w-full bg-black max-w-[500px] p-6 flex flex-col items-center text-center space-y-8">
         <!-- Top Header -->
         <h1 class="text-2xl tracking-[15px] mt-10 pl-[15px]">PRONATIUX</h1>
